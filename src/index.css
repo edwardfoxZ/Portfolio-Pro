@@ -41,6 +41,17 @@ p {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
+.input-glass {
+  background: linear-gradient(
+    135deg,
+    rgba(44, 40, 40, 0.1),
+    rgba(255, 255, 255, 0.163)
+  );
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(14, 14, 14, 0.745);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.465);
+}
+
 .shiny-effect {
   position: absolute;
   border-radius: 50%;

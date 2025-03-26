@@ -28,16 +28,16 @@ export const Contract = () => {
           <input
             type="name"
             placeholder="Your Name..."
-            className="w-full p-2 rounded-lg bg-white/10 backdrop-blur-lg text-white placeholder:text-white/50 outline-none border border-white/20 focus:border-white/40 transition duration-300"
+            className="w-full p-2 rounded-lg input-glass text-white placeholder:text-white/50 outline-none border border-white/20 focus:border-white/40 transition duration-300"
           />
           <input
             type="email"
             placeholder="Your Email..."
-            className="w-full p-2 rounded-lg bg-white/10 backdrop-blur-lg text-white placeholder:text-white/50 outline-none border border-white/20 focus:border-white/40 transition duration-300"
+            className="w-full p-2 rounded-lg input-glass text-white placeholder:text-white/50 outline-none border border-white/20 focus:border-white/40 transition duration-300"
           />
           <textarea
             placeholder="Your Message..."
-            className="w-full min-h-[120px] p-2 rounded-lg bg-white/10 backdrop-blur-lg text-white placeholder:text-white/50 outline-none border border-white/20 focus:border-white/40 transition duration-300"
+            className="w-full min-h-[120px] p-2 rounded-lg input-glass text-white placeholder:text-white/50 outline-none border border-white/20 focus:border-white/40 transition duration-300"
           />
           <button
             className="bg-[linear-gradient(to_right,#4db5d2,#3472a1)] text-white text-3xl px-10 py-2 rounded-xl border border-transparent
