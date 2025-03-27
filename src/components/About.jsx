@@ -102,7 +102,7 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="md:block hidden group">
+      <div className="relative md:block hidden group">
         <div
           className="w-full h-full -inset-1 bg-gradient-to-r from-teal-100 to-teal-900 rounded-lg
               blur opacity-25 group-hover:opacity-100 transition-all duration-300 absolute"
