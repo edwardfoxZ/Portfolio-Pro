@@ -69,6 +69,21 @@ export const About = () => {
       </div>
 
       {/* Frontend section */}
+      <div className="md:hidden relative group">
+        <div
+          className="w-full h-full -inset-1 bg-gradient-to-r from-teal-100 to-teal-900 rounded-lg
+              blur opacity-25 group-hover:opacity-100 transition-all duration-300 absolute"
+        ></div>
+        <div className="relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg">
+          <img
+            draggable={false}
+            className="rounded-lg md:max-w-[500px]"
+            src={pr2}
+            alt="project2"
+          />
+        </div>
+      </div>
+
       <div className="text-white space-y-5 max-w-[500px]">
         <h2 className="text-2xl md:text-4xl font-extrabold">
           Frontend Experience
@@ -87,7 +102,7 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="relative group">
+      <div className="md:block hidden group">
         <div
           className="w-full h-full -inset-1 bg-gradient-to-r from-teal-100 to-teal-900 rounded-lg
               blur opacity-25 group-hover:opacity-100 transition-all duration-300 absolute"
